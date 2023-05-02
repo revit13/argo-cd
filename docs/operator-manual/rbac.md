@@ -221,7 +221,7 @@ argocd admin settings rbac can SOMEROLE ACTION RESOURCE SUBRESOURCE [flags]
 ```
 
 Given the example from the above ConfigMap, which defines the role
-`role:org-admin`, and is stored on your local system as `argocd-rbac-cm-yaml`,
+`role:org-admin`, and is stored on your local system as `argocd-rbac-cm.yaml`,
 you can test whether that role can do something like follows:
 
 ```shell
